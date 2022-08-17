@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/*1er cuerpo - logo*/
+.header {
+  background-image: url("../imgs/background-header.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.header h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+}
+
+.header h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin-top: -1em;
+  padding-bottom: 2.5em;
+  color: rgb(255, 255, 255);
+}
+
+.header a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgLogo {
+  margin-top: -6em;
+}
+
+.logoText {
+  text-align: center;
+  margin-top: -13em;
+  text-transform: uppercase;
+}
+
+.symbol {
+  font-size: 90%;
+  font-weight: 100;
+}
+
+/* 2do cuerpo - inicio descripción */
+.container {
+  background-image: url("../imgs/background-color.png");
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -2em 0 1em 0;
+}
+
+.sale {
+  padding-top: 0;
+  text-align: center;
+  color: rgb(43, 30, 17);
+  margin: 1em 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 60%;
+  text-align: center;
+}
+
+.text {
+  margin: 4em 4em 0 4em;
+  text-align: justify;
+}
+
+.text h2 {
+  font-size: 2.5rem;
+}
+
+.containerText {
+  margin-left: 4em;
+}
+
+.text,
+.intro {
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.intro span {
+  font-size: 1.1em;
+}
+
+.address {
+  margin-top: 2em;
+}
+
+.address address {
+  color: rgb(32, 9, 115);
+}
+
+.description {
+  padding: 20em;
+}
+
+.text h3 {
+  font-size: 1.5rem;
+}
+
+/*inicio productos*/
+.furniture {
+  float: left;
+  border-radius: 1em;
+  margin-left: 8em;
+  border: 5px solid #fff;
+}
+
+article {
+  margin: 4em 0;
+}
+
+ul {
+  text-align: justify;
+  padding: 24em 0 0 42em;
+  list-style-type: none;
+  line-height: 2;
+}
+
+ul span {
+  color: rgb(255, 0, 0);
+  font-size: 1.2em;
+}
+
+/*3er cuerpo*/
+footer {
+  padding: 2em 0 1.5em 0;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin-top: -1em;
+}
